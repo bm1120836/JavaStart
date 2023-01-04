@@ -1,21 +1,21 @@
 /*
  * Счет, вычисляющий полученный доход
  */
-
+import static java.lang.System.out;
 public class Account1 {
-    String name;
-    String adress;
-    double balance;
+    String name1;
+    String address1;
+    double balance1;
     public void display() {
-        out.print(name);
+        out.print(name1);
         out.print(" (");
-        out.print(address);
+        out.print(address1);
         out.print(") имеет на счету $");
-        out.print(balance);
+        out.print(balance1);
     }
 
     public double getInterest(double percentageRate) {
-        return balance * percentageRate / 100;
+        return balance1 * percentageRate / 100;
     }
     
 }
